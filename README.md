@@ -3,13 +3,13 @@
 
 # Create an Android application in Java which analyzes the emotion and tone of natural language
 
-The Bluemix Mobile Starter for Watson Tone Analyzer showcases the Tone Analyzer service from Watson and gives you integration points for each of the Bluemix Mobile services.
+The IBM Cloud Mobile Starter for Watson Tone Analyzer showcases the Tone Analyzer service from Watson and gives you integration points for each of the IBM Cloud Mobile services.
 
 ## Requirements
 
-* A [Bluemix](http://bluemix.net) Account
+* An [IBM Cloud](http://bluemix.net) account
 * [Android Studio](https://developer.android.com/studio/index.html)
-* A [Tone Analyzer](https://console.ng.bluemix.net/catalog/services/tone-analyzer/) service was provisioned for you when you created this project on Bluemix.
+* A [Tone Analyzer](https://console.ng.bluemix.net/catalog/services/tone-analyzer/) service was provisioned for you when you created this project on IBM Cloud.
 
 ## Configuration
 
