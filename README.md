@@ -3,6 +3,8 @@
 
 # Create an Android application in Java which analyzes the emotion and tone of natural language
 
+> We have a similar pattern available for [iOS](https://github.com/IBM/tone-analyzer-ios), as well!
+
 The IBM Cloud Mobile Starter for Watson Tone Analyzer showcases the Tone Analyzer service from Watson and gives you integration points for each of the IBM Cloud Mobile services.
 
 ![](README_Images/architecture.png)
