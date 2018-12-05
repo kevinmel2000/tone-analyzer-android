@@ -15,18 +15,23 @@ When you have completed this code pattern, you will understand how to:
 
 ![](README_Images/architecture.png)
 
-## Requirements
+## Steps
 
-* An [IBM Cloud](http://bluemix.net) account
-* [Android Studio](https://developer.android.com/studio/index.html)
-* A [Tone Analyzer](https://console.ng.bluemix.net/catalog/services/tone-analyzer/) service was provisioned for you when you created this project on IBM Cloud.
+1. [Install development tools](#1-install-development-tools)
+2. [Create a Tone Analyzer service instance](#2-create-a-tone-analyzer-service-instance)
+3. [Run](#3-run)
 
-## Configuration
+### 1. Install development tools
 
-* Open the project in Android Studio and perform a Gradle Sync.
-* No further configuration is needed. Your unique Tone Analyzer credentials were injected into your mobile app during generation.
+Ensure you have the latest version of [Android Studio](https://developer.android.com/studio/index.html) installed.
 
-## Run
+### 2. Create a Tone Analyzer service instance
+
+Use the [IBM Cloud Catalog](https://console.bluemix.net/catalog/) to [create a Tone Analyzer service instance](https://console.bluemix.net/catalog/services/tone-analyzer) on the Lite plan. Make sure to select **Use both legacy credentials and IAM** to receive the proper credential set for the Cloudant SDK.
+
+When the service has been created, navigate to the **Service credentials** tab, and create a **New credential ⊕** with the default options. Click **View credentials**. Edit `app/src/main/res/values/credentials.xml` in your project to configure your application with your Cloudant credentials.
+
+### 3. Run
 
 * You can now build and run the application from Android Studio!
 
