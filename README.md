@@ -17,6 +17,8 @@ When you have completed this code pattern, you will understand how to:
 
 ## Steps
 
+> As an alternative to the steps below, you can [create this project as a starter kit](https://console.bluemix.net/developer/mobile/create-app?defaultDeploymentToolchain=&defaultLanguage=ANDROID&env_id=ibm%3Ayp%3Aus-south&starterKit=a16f3f49-3f8c-37eb-a848-c56d3fb47197&tenantNavMode=true) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 3 below.
+
 1. [Install development tools](#1-install-development-tools)
 2. [Create a Tone Analyzer service instance](#2-create-a-tone-analyzer-service-instance)
 3. [Run](#3-run)
