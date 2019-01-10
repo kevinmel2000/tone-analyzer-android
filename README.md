@@ -17,7 +17,7 @@ When you have completed this code pattern, you will understand how to:
 
 ## Steps
 
-> As an alternative to the steps below, you can [create this project as a starter kit](https://console.bluemix.net/developer/mobile/create-app?defaultDeploymentToolchain=&defaultLanguage=ANDROID&env_id=ibm%3Ayp%3Aus-south&starterKit=a16f3f49-3f8c-37eb-a848-c56d3fb47197&tenantNavMode=true) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 3 below.
+> As an alternative to the steps below, you can [create this project as a starter kit](https://cloud.ibm.com/developer/mobile/create-app?defaultDeploymentToolchain=&defaultLanguage=ANDROID&env_id=ibm%3Ayp%3Aus-south&starterKit=a16f3f49-3f8c-37eb-a848-c56d3fb47197&tenantNavMode=true) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 3 below.
 
 1. [Install development tools](#1-install-development-tools)
 2. [Create a Tone Analyzer service instance](#2-create-a-tone-analyzer-service-instance)
@@ -25,11 +25,11 @@ When you have completed this code pattern, you will understand how to:
 
 ### 1. Install development tools
 
-Ensure you have the latest version of [Android Studio](https://developer.android.com/studio/index.html) installed.
+Ensure you have the latest version of [Android Studio](https://developer.android.com/studio/) installed.
 
 ### 2. Create a Tone Analyzer service instance
 
-Use the [IBM Cloud Catalog](https://console.bluemix.net/catalog/) to [create a Tone Analyzer service instance](https://console.bluemix.net/catalog/services/tone-analyzer) on the Lite plan. Make sure to select **Use both legacy credentials and IAM** to receive the proper credential set for the Cloudant SDK.
+Use the [IBM Cloud Catalog](https://cloud.ibm.com/catalog/) to [create a Tone Analyzer service instance](https://cloud.ibm.com/catalog/services/tone-analyzer) on the Lite plan. Make sure to select **Use both legacy credentials and IAM** to receive the proper credential set for the Cloudant SDK.
 
 When the service has been created, navigate to the **Service credentials** tab, and create a **New credential ⊕** with the default options. Click **View credentials**. Edit `app/src/main/res/values/credentials.xml` in your project to configure your application with your Cloudant credentials.
 
